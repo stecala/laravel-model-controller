@@ -12,9 +12,9 @@
                         </a>
                     </li>
                     <li>
-                        {{-- <a href="{{ route('movies') }}"> --}}
+                        <a href="{{ route('movies') }}">
                             Movies
-                        {{-- </a> --}}
+                        </a>
                     </li>
                     <li>
                         Contacts
