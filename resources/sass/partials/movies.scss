@@ -1,0 +1,11 @@
+.card{
+    height: 250px;
+    box-shadow: 5px 5px 5px rgba(138, 138, 138, 0.582);
+    transition: ease 0.2s;
+    cursor: pointer;
+    padding: 20px 5px;
+    text-align: center;
+    &:hover{
+        transform: scale(1.1) ;
+    }
+}

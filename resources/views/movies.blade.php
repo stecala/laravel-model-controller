@@ -3,9 +3,17 @@
 @section('title', 'Movies')
 
 @section('home')
-    <main class="container-lg">
-        <h1>
-            movies
-        </h1>
+    <main>
+        <div class="container-lg">
+            <div class="row justify-content-center">
+                 @forelse ($movies as $movie)
+                    @include('import.card')
+                 @empty
+                     <h4>
+                         Non sono presenti film.
+                     </h4>
+                 @endforelse        
+            </div>
+        </div>
     </main>
 @endsection

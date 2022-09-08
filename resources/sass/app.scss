@@ -2,5 +2,11 @@
 @import "~bootstrap/scss/bootstrap";
 @import "partials/header.scss";
 @import "partials/home.scss";
+@import "partials/movies.scss";
 
 @import "partials/footer.scss";
+
+
+main{
+    background-color: rgb(27, 27, 27);
+}
