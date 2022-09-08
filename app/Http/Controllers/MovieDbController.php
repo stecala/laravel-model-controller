@@ -12,4 +12,7 @@ class MovieDbController extends Controller
         $movies=Movie::all();
         return view('movies', compact('movies'));
     }
+    public function contact(){
+        return view('contacts');
+    }
 }

@@ -17,7 +17,9 @@
                         </a>
                     </li>
                     <li>
-                        Contacts
+                       <a href="{{ route('contacts') }}">
+                           Contacts
+                        </a>
                     </li>
                 </ul>
             </div>
